@@ -1,0 +1,13 @@
+path: ../datasets/yolov8-price-tag-detection-dataset
+train: images/train
+val: images/val
+test: images/val
+
+names:
+ 0: description
+ 1: price_whole
+ 2: price_fraction
+ 3: social_price_label
+
+# TODO: Replace
+download: https://download.slipenko.com/mzhn-team-sochi/yolov8-price-tag-detection-dataset.zip
